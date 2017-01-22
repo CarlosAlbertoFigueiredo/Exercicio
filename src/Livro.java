@@ -9,6 +9,7 @@ public class Livro {
     String descricao;
     double valor;
     String isbn;
+    Autor autor;
 
     //Métodos
 
@@ -19,7 +20,9 @@ public class Livro {
         System.out.println("Descrição:" + descricao);
         System.out.println("Valor:" + valor);
         System.out.println("ISBN:" + isbn);
+        autor.mostrarDetalhes();
         System.out.println("-----------------------");
+
     }
 
     //Getters e Setters
